@@ -2,7 +2,7 @@
 ***
 
 ### Executive Summary
-Fires can occur for many reasons. Some are caused naturally (think lighting striking a tree) and others are man-made (accidental or intentional). The year of 2020 has been unprecedented in the amount of destruction caused by fires across the country, all spurred by heat waves in some place, tropical storms in others, and even debris burning ((Source)[https://en.wikipedia.org/wiki/2020_California_wildfires; https://www.insurancejournal.com/news/southcentral/2020/08/17/579347.htm#:~:text=So%20far%20in%202020%2C%20902,a%20total%20of%20171%2C204%20acres]). It is important to note that not all fires are bad, some ecosystems depend on them and people use it in agriculture. Although not all fires that occur are detrimental, there are really important reasons why we should be actively tracking them. It helps us locate volcanoes, gas flares and the sources of air pollution caused by smoke ((Source)[https://earthdata.nasa.gov/earth-observation-data/near-real-time/hazards-and-disasters/fires]). 
+Fires can occur for many reasons. Some are caused naturally (think lighting striking a tree) and others are man-made (accidental or intentional). The year of 2020 has been unprecedented in the amount of destruction caused by fires across the country, all spurred by heat waves in some place, tropical storms in others, and even debris burning ([Source 1](https://en.wikipedia.org/wiki/2020_California_wildfires); [Source 2](https://www.insurancejournal.com/news/southcentral/2020/08/17/579347.htm#:~:text=So%20far%20in%202020%2C%20902,a%20total%20of%20171%2C204%20acres)). It is important to note that not all fires are bad, some ecosystems depend on them and people use it in agriculture. Although not all fires that occur are detrimental, there are really important reasons why we should be actively tracking them. It helps us locate volcanoes, gas flares and the sources of air pollution caused by smoke ([Source](https://earthdata.nasa.gov/earth-observation-data/near-real-time/hazards-and-disasters/fires). 
 
 The Coronavirus pandemic has plagued the world in the year 2020, and has been particularly deadly in the United States where, at the time this project was completed, total confirmed cases have just passed 9 Million, while deaths are at about 230,000. We began our exploratory data analysis by graphing cumulative confirmed for each state and comparing them to eachother, we then chose the top three states with the most total confirmed cases and mapped the top 10 counties in each state to observe the severity of infection rates at more granular level.
 
@@ -21,7 +21,9 @@ We hypothesized that that people would be more likely to stay at home/indoors in
 <br>
 
 ### Contents:
-
+- [Code](https://github.com/eklee151/COVID19-Natural-Disasters/tree/main/code)
+- [Presentation](https://github.com/eklee151/COVID19-Natural-Disasters/blob/main/DSI%20Project%205.pdf)
+- [FIRMS Information Sheet](https://github.com/eklee151/COVID19-Natural-Disasters/blob/main/FIRMS%20Fire%20Data%20Info%20Sheet.pdf)
 
 ### Data
 This data set was provided by LANCE FIRMS operated by NASA ESDIS with funding provided by NASA Headquarters and can be found [here]( https://firms2.modaps.eosdis.nasa.gov/download/)
@@ -33,6 +35,10 @@ COVID-19 statewide incidence numbers inputted into folium can be found [here](ht
 COVID-19 data used in EDA graphs can be found [here](https://raw.githubusercontent.com/kevinrenois/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv)
 
 ### Data Dictionaries
+
+<br>
+
+## NASA FIRMS MODIS (Fire) Data Dictionary
 |Feature| Type| Description|
 |---|---|---|
 |**latitude**|numeric| latitude|
@@ -53,7 +59,7 @@ COVID-19 data used in EDA graphs can be found [here](https://raw.githubuserconte
 
 <br>
 
-## COVIDcast Statewide Incidence Data
+## COVIDcast Statewide Incidence Data Dictionary
 |Feature| Type| Description|
 |---|---|---|
 |**geo_value**|string| state|
