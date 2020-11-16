@@ -6,7 +6,7 @@ Fires can occur for many reasons. Some are caused naturally (think lighting stri
 
 The Coronavirus pandemic has plagued the world in the year 2020, and has been particularly deadly in the United States where, at the time this project was completed, total confirmed cases have just passed 9 Million, while deaths are at about 230,000. We began our exploratory data analysis by graphing cumulative confirmed for each state and comparing them to eachother, we then chose the top three states with the most total confirmed cases and mapped the top 10 counties in each state to observe the severity of infection rates at more granular level.
 
-We then combined the information we had on the spread of the virus with the information we had about fires and heat anomalies to create an interactive map. The heatmap layer shows precise geographical locations of fires and heat anomalies in the United States from February to October 2020, and an additional chloroplet layer illustrates daily confirmed cases in each State for the same range of dates.
+We then combined the information we had on the spread of the virus with the information we had about fires and heat anomalies to create an interactive map. The heatmap layer shows precise geographical locations of fires and heat anomalies in the United States from February to October 2020, and an additional chloropleth layer illustrates daily confirmed cases in each State for the same range of dates.
 
 <br>
 
@@ -26,7 +26,7 @@ We hypothesized that people would be more likely to stay at home/indoors in area
 - [FIRMS Information Sheet](https://github.com/eklee151/COVID19-Natural-Disasters/blob/main/FIRMS%20Fire%20Data%20Info%20Sheet.pdf)
 
 ### Data
-This data set was provided by LANCE FIRMS operated by NASA ESDIS with funding provided by NASA Headquarters and can be found [here]( https://firms2.modaps.eosdis.nasa.gov/download/)
+The heat anomaly data set was provided by LANCE FIRMS operated by NASA ESDIS with funding provided by NASA Headquarters and can be found [here]( https://firms2.modaps.eosdis.nasa.gov/download/)
  - Covered the dates of 1/1/2020 – 10/23/2020
  - 41,709 fire occurrences for the continental US (including the District of Columbia), Alaska and Hawaii
  
@@ -54,8 +54,8 @@ COVID-19 data used in EDA graphs can be found [here](https://raw.githubuserconte
 |**version**|categorical| collection and source|
 |**bright_t31**|numeric| channel 31 brightness temp of the fire pixel (in Kelvin)|
 |**frp**|numeric| fire radiative power (in megawatts)|
-|**daynight**|categorical|D = daytime fire, N = nighttime fire|
-|**type**|categorical|inferred hot spot type|
+|**daynight**|categorical| D = daytime fire, N = nighttime fire|
+|**type**|categorical| inferred hot spot type|
 
 <br>
 
