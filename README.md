@@ -54,8 +54,8 @@ COVID-19 data used in EDA graphs can be found [here](https://raw.githubuserconte
 |**version**|categorical| collection and source|
 |**bright_t31**|numeric| channel 31 brightness temp of the fire pixel (in Kelvin)|
 |**frp**|numeric| fire radiative power (in megawatts)|
-|**daynight**|categorical| inferred hot spot type|
-|**type**|categorical|url D = daytime fire, N = nighttime fire|
+|**daynight**|categorical|D = daytime fire, N = nighttime fire|
+|**type**|categorical|inferred hot spot type|
 
 <br>
 
